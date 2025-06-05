@@ -6,22 +6,22 @@
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #2c3e50;
+    color: #2e7d32;
 }
 
 /* Cabeçalho */
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('https://images.unsplash.com/photo-1601134467661-3d775b99c098?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 5rem 1rem;
@@ -36,7 +36,7 @@ header {
 header h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header p {
@@ -47,7 +47,7 @@ header p {
 
 /* Navegação */
 nav {
-    background-color: #2c3e50;
+    background-color: #2e7d32;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -67,7 +67,7 @@ nav li {
 }
 
 nav a {
-    color: #ecf0f1;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -77,7 +77,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #3498db;
+    color: #a5d6a7;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -95,7 +95,7 @@ nav a:hover {
     padding: 2.5rem;
     margin-bottom: 3rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 5px solid #3498db;
+    border-left: 5px solid #2e7d32;
 }
 
 .card:hover {
@@ -106,7 +106,7 @@ nav a:hover {
 .card h2 {
     margin-bottom: 1.5rem;
     padding-bottom: 0.8rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e0e0e0;
     font-size: 2rem;
 }
 
@@ -165,16 +165,22 @@ nav a:hover {
 
 blockquote {
     font-style: italic;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #2e7d32;
     padding-left: 1rem;
     margin: 1.5rem 0;
     color: #555;
 }
 
+blockquote footer {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #2e7d32;
+}
+
 /* Rodapé */
 footer {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-                url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+                url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 3rem 1rem;
